@@ -1,17 +1,14 @@
 #include <stdio.h>
+
 /**
-*main - print if the number is postive, zero, or nagative
+*main - print the string in the put function
 *
 *Description:using the function
-*this program prints "programming is positive, zero, or negative
+*this program prints "programming is like buiding a multilingual puzzle"
 *Return: 0
 */
 int main(void)
 {
-int i;
-for (i - 0; i < 10; i++)
-{       printf("%i", i );
-}
-printf("\n");
-return (0);
+      printf("with proper grammar, but the outcome is a piece of art,\n");
+      return (0);
 }
