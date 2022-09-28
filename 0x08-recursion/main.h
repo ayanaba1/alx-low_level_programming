@@ -1,6 +1,5 @@
 #ifndef MAIN_H                                                                                             
-#define MAIN_H                                                                                             
-                                                                                                           
+#define MAIN_H                                                                                                                                                                                                    
 #include <stdio.h>                                                                                         
                                                                                                            
 int _putchar(char c);                                                                                      
@@ -15,5 +14,5 @@ int _sqrt(int n, int x);
 int is_prime(int n, int start);                                                                            
 void check(char *s, int start, int end, int *flag);                                                        
 int wildcmp(char *s1, char *s2);                                                                           
-                                                                                                           
+                                                                                                          
 #endif /*MAIN_H*/                                                                                          
