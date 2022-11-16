@@ -1,9 +1,9 @@
 #include <stdlib.h>
 /**
 * _calloc - allocates memory for an array
-* @nmemb: total elements in the arrays
-* @size: size of each elements
-* Return: pointer to arrays
+* @nmemb: total elements of array
+* @size: size of each element
+* Return: pointer to array
 */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
@@ -22,4 +22,4 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		filler[i] = '\0';
 	}
 	return (p);
-}									
+}
