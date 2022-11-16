@@ -1,29 +1,15 @@
-nclude <stdio.h>
-
+#include <stdio.h>
 #include "main.h"
-
 /**
- *
- * * main - Prints names of files
- *
- * * @argc: Counts the command line arguments
- *
- * * @argv: Save the command line arguments
- *
- * * Return: 0
- *
- * */
-
-
+* main - Prints names of in it file
+* @argc: Counts the  number of command line arguments
+* @argv: Save the command line arguments
+* Return: 0
+*/
 
 int main(int argc, char *argv[])
-
 {
-
-		if (argc == 1)
-
-				printf("%s\n", argv[0]);
-
-			return (0);
-
+	if (argc == 1)
+	printf("%s\n", argv[0]);
+	return (0);
 }
